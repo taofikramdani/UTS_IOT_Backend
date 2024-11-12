@@ -82,7 +82,6 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        // Adding request to request queue
         val requestQueue = Volley.newRequestQueue(this)
         requestQueue.add(jsonObjectRequest)
     }
