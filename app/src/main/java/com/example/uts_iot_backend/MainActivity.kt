@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadWeatherData() {
-        val url = "http://10.0.2.2/Cuaca/get.php" // Change this to your API endpoint
+        val url = "http://10.0.2.2/Cuaca/get.php"
 
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, url, null,
